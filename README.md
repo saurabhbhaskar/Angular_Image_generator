@@ -1,4 +1,6 @@
-# ImageGenerator
+# Image Generator
+
+This is a simple image generator application built using Angular for the frontend and the ClipDrop API for generating images from text prompts. Users can input a text prompt, and the application will generate and display an image based on that prompt.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
 
@@ -6,22 +8,28 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Text to Image Generation**: Users can enter text prompts to generate images.
+- **Image Display**: Generated images are displayed directly on the page.
+- **Responsive Design**: The application is responsive and works on various screen sizes.
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Frontend**: Angular
+- **Image Generation API**: ClipDrop API
 
-## Running unit tests
+## Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Before you begin, ensure you have met the following requirements:
 
-## Running end-to-end tests
+- Node.js and npm installed on your machine.
+- An active account on [ClipDrop](https://clipdrop.co/) to get your API key.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Getting Started
 
-## Further help
+### Clone the Repository
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+npm i
+ng serve
